@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <title>Enregistrer Employé</title>
+  </head>
+  <body class="quatre">
+    <div class="container"> 
+    <header>
+      <h1>Société PILAF <span>Statistique</span></h1>
+    </header>
+
+      <div class="useCase">
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="consulterEmploye.html">Consulter Employé</a></li>
+          </ul>
+        </nav>
+
+        <div class="enregistrerEmploye casUtilisation">
+          <h2>Enregistrer Employé</h2>
+          <form class="register">
+            <fieldset class="row2">
+                <legend>Information employé </legend>
+                <p>
+                    <label> Prenom : </label>
+                    <input type="text" class="long" maxlength="20" placeholder="Thierry"/>
+                </p>
+                <p>
+                    <label>Nom : </label>
+                    <input type="text" class="long" maxlength="20" placeholder=" DURAND"/>
+                </p>
+				
+				<label>Libellé emploi : </label>
+                    <input type="text" class="long" maxlength="20" placeholder="Caissier "/>
+                </p>
+                     <tr>
+                       <td><h3>Date de naissance</h3></td>
+                       <td><input type="date"></td>
+                     </tr>
+                <p class="espace2">
+                    <label>Adresse </label>
+                    <input type="text" class="long" placeholder=" Rue Pierre Curie"/>
+                </p>
+                <p class="espace2">
+                    <input type="text" class="ville" placeholder=" Limoges"/>
+                </p>
+                <p class="espace2">
+					<label> Code Postal</label>
+                    <input type="text" class="codePostal" placeholder=" 87000"/>
+                </p>
+                
+                <p class="espace2">
+					<label> Pays</label>
+                    <input type="text" class="codePostal" placeholder=" France"/>
+                </p>
+                <p>
+                    <label>Email :</label>
+                    <input type="text" class="mail" placeholder=" thierry.durand@gmail.com" />
+                </p>
+                      <p class="espace">
+                        <label>Téléphone :</label> 
+                        <input type="text" class="telephone" placeholder=" 05 05 98 99 01" />
+                      </p>
+            </fieldset>
+          <div class="Confirmation">
+            <a href="consulterEmploye.html" class="Valider">Valider</a>
+            <a href="consulterEmploye.html" class="Annuler">Annuler</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

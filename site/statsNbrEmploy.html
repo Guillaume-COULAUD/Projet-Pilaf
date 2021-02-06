@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/statsNbrEmploy.css">
+
+	
+    <title></title>
+  </head>
+  <body class="quatre">
+  	 <div class="container">
+    <header>
+     <h1>Société PILAF <span>Statistique</span></h1>
+    </header>
+
+      <div class="useCase">
+        <nav>
+          <ul>
+          	<li><a href="index.html">Accueil</a></li>
+            <li><a href="statsNbrEmploy.html">Statistiques nombre d'heures travaillés par jour</a></li>
+            <li><a href="NbrVente.html">Statistiques nombre de ventes par jour</a></li>
+            <li><a href="NbrAchat.html">Statistiques nombre d’achats par jour</a></li>
+          </ul>
+        </nav>
+		
+	    <section>
+			<h2>STATISTIQUES NOMBRE D'HEURES TRAVAILLEES PAR JOUR</h2>
+
+			<article>
+				<table>
+				
+					<tr>
+						<td colspan="2">
+							<label for="JourChoisi">Jour choisi :</label>
+						</td>
+						<td>
+							<input type="date" id="txtDate" value="2020-06-03" min="2015-01-01"/>
+						</td>
+						<td>
+							<button id="valider")>Valider</button>
+						</td>
+						<td colspan="2">
+							<label for="MoyenGénéral">Moyen général : </label>		
+							<a id="moyenGeneral">10 heure(s)</a>
+						</td>
+					</tr>
+					
+					<tr id="ligne2">
+						<th class="ligne2"><label for="Total"><a href="statsNbrEmploy.html" id="total" style="font-size:2em;">Total</a></label></th>
+						<th class="ligne2"><label for="Dirigeant"><a href="statsNbrEmploy-Dirigeant.html">Dirigeant</a></label></th>
+						<th class="ligne2"><label for="DirectionSecrétaire"><a href="statsNbrEmploy-Direction secrétaire.html">Direction secrétaire</a></label></th>
+						<th class="ligne2"><label for="DirectionProduit"><a href="statsNbrEmploy-Direction produit.html">Direction produit</a></label></th>
+						<th class="ligne2"><label for="DirectionCommerciale"><a href="statsNbrEmploy-Direction commerciale.html">Direction commerciale</a></label></th>
+						<th class="ligne2"><label for="DirectionCaisse"><a href="statsNbrEmploy-Direction caisse.html">Direction caisse</a></label></th>						
+					</tr>
+					
+					<tr>
+						<td colspan="3"  id="libelle">
+							<label for="Libelle">Libellé :</label>
+						</td>
+						<td colspan="3"  id="NombreHoraire">
+							<label for="NombreHoraire">Nombre d’heures :</label>
+						</td>
+					</tr>	
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle" class="Moyen">Moyenne</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire" class="Moyen">10</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle">Dirigeant</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire">10</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle">Direction secrétaire</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire">10</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle">Direction produit</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire">10</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle">Direction commerciale</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire">10</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3"  class="libelle">
+							<label for="Libelle">Direction caisse</label>
+						</td>
+						<td colspan="3"  class="NombreHoraire">
+							<label for="NombreHoraire">10</label>
+						</td>
+					</tr>					
+					
+			</article>			
+		
+		
+		</section>
+		
+      </div>
+
+    </div>
+
+  </body>
+</html>

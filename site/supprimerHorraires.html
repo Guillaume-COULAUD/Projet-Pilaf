@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <title>Supprimer horaires</title>
+  </head>
+  <body class="quatre">
+    <div class="container"> 
+    <header>
+    <h1>Société PILAF <span>Suppression d'horaires</span></h1>
+    </header>
+
+
+      <div class="useCase">
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="consulterHorraires.html">Consulter horaires</a></li>
+            <li><a href="enregistrerHoraire.html">Enregistrer horaires</a></li>
+          </ul>
+        </nav>
+
+        <div class="enregistrerHoraire casUtilisation">
+          <h2>Supprimer horaires</h2>
+          <br>
+            <table>
+              <thead>
+                    <tr>
+                        <th></th>
+                        <th>Nom&Prenom</th>
+                        <th>Date</th>
+                        <th>Heure</th>
+                     <tr>
+               </thead>
+               <tbody>
+                 <tr>
+                   <td><a href="#" class="Enlever">+</a></td>
+                   <td><input type="text" id="idProd" placeholder="Nom&Prenom"></td>
+                   <td><input type="date" id="date"></td>
+                   <td><select class="entreeSortie">
+                    <option value="entree">Repos</option>
+                    <option value="entree">8h-9h</option>
+                    <option value="sortier">8h-10h</option>
+                    <option value="entree">8h-11h</option>
+                    <option value="sortier">8h-12h</option>
+                    <option value="sortier">9h-10h</option>
+                    <option value="entree">9h-11h</option>
+                    <option value="sortier">9h-12h</option>
+                    <option value="entree">10h-11h</option>
+                    <option value="sortier">10h-12h</option>
+                    <option value="sortier">11h-12h</option>
+                  </select><select class="entreeSortie">
+                    <option value="entree">Repos</option>
+                    <option value="entree">13h-14h</option>
+                    <option value="sortier">13h-15h</option>
+                    <option value="entree">13h-16h</option>
+                    <option value="sortier">13h-17h</option>
+                    <option value="sortier">13h-18h</option>
+                    <option value="sortier">14h-15h</option>
+                    <option value="entree">14h-16h</option>
+                    <option value="sortier">14h-17h</option>
+                    <option value="sortier">14h-18h</option>
+                    <option value="entree">15h-16h</option>
+                    <option value="sortier">15h-17h</option>
+                    <option value="sortier">15h-18h</option>
+                    <option value="sortier">16h-17h</option>
+                    <option value="sortier">16h-18h</option>
+                    <option value="sortier">17h-18h</option>
+                   </select></td>
+                 </tr>
+
+                </tbody>
+            </table>
+          <br>
+          <div class="Confirmation">
+            <a href="consulterHorraires.html" class="Valider">Valider</a>
+            <a href="enregistrerHoraire.html" class="Annuler">Annuler</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

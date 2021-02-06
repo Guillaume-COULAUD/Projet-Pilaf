@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" type="text/css" href="css/NbrVente.css">
+ 
+	
+    <title></title>
+  </head>
+  <body class="quatre">
+  	 <div class="container">
+    <header>
+       <h1>Société PILAF <span>Bienvenue PILAF</span></h1>
+    </header>
+
+      <div class="useCase">
+        <nav>
+          <ul>
+          	    <li><a href="index.html">Accueil</a></li>
+            <li><a href="statsNbrEmploy.html">Statistiques nombre d'heures travaillés par jour</a></li>
+            <li><a href="NbrVente.html">Statistiques nombre de ventes par jour</a></li>
+            <li><a href="NbrAchat.html">Statistiques nombre d’achat par jour</a></li>
+          </ul>
+        </nav>
+		
+	    <section>
+			<h2>STATISTIQUES NOMBRE DE VENTES PAR JOUR</h2>
+
+			<article>
+				<table>
+				
+					<tr>
+						<td>
+							<label for="JourChoisi">Jour choisi :</label>
+							<input type="date" id="txtDate" value="2020-06-03" min="2015-01-01"/>
+						</td>
+						<td class="ligne1">
+							<button id="valider")>Valider</button>
+						</td>
+						<td colspan="2">
+							<label for="ChiffreAffaire">Chiffre d'affaire :</label>		
+							<a id="chiffreAffaire">200 €</a>
+						</td>
+					</tr>
+					
+					<tr id="ligne2">
+						<th class="ligne2"><label for="Désignation">Désignation</label></th>
+						<th class="ligne2"><label for="PrixUnitaire">Prix unitaire</label></th>
+						<th class="ligne2"><label for="Quantité">Quantité</label></th>
+						<th class="ligne2"><label for="Montant">Montant</label></th>					
+					</tr>	
+					<tr>
+						<td class="Désignation">
+							<label for="Libelle">Tomates rouges</label>
+						</td>
+						<td class="PrixUnitaire">
+							<label for="Libelle">0.5</label>
+						</td>
+						<td class="Quantité">
+							<label for="Libelle">200</label>
+						</td>
+						<td class="Montant">
+							<label for="Libelle">100</label>
+							<a>€</a>							
+						</td>
+					</tr>
+						<tr>
+						<td class="Désignation">
+							<label for="Libelle">Laitues</label>
+						</td>
+						<td class="PrixUnitaire">
+							<label for="Libelle">1</label>
+						</td>
+						<td class="Quantité">
+							<label for="Libelle">100</label>
+						</td>
+						<td class="Montant">
+							<label for="Libelle">100</label>
+							<a>€</a>
+						</td>
+					</tr>
+					</tr>
+						<tr>
+						<td colspan="4" id="vide">
+
+						</td>
+					</tr>				
+					
+
+				
+					
+			</article>			
+		
+		
+		</section>
+		
+      </div>
+
+    </div>
+
+  </body>
+</html>

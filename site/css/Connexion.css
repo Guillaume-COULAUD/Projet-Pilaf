@@ -1,0 +1,34 @@
+.Connexion{
+	background : rgb(27, 54, 71);
+	margin : auto;
+	width : 30%;
+	margin-top: 50vh;
+  transform: translateY(-50%);
+  padding-top : 10px;
+  height : 45%;
+}
+
+.Connexion p label {
+	padding : 10px;
+}
+
+.Connexion label {
+	padding : 10px;
+}
+
+header {
+	background : rgb(27, 54, 71);
+	width : 10%;
+	padding : 20px; 
+}
+
+header p a{
+	color : #FFFFFF;
+}
+
+p.BoutonConnexion{
+	background : rgb(233, 147, 26);
+	padding : 10px;
+	text-align : center;
+	text-transform : uppercase;
+}

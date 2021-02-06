@@ -1,0 +1,54 @@
+
+
+h2{
+	padding-left:-5%;
+	margin:20px 0 20px 20px;
+}
+
+h3{
+	font-size: 1.5em;
+	text-align: center;
+	border: solid 1px black;
+	background-color: rgb(136, 255, 89);
+	padding-left:-5%;
+	margin: 2% 15%;
+	margin-bottom:0px;
+}
+
+table{
+	margin :auto ;
+	margin-top:0px;
+	background-color :white ;
+	width :70%;
+	border:solid 2px black;
+}
+
+table th, table td{
+	background-color: white;
+	text-align: left;
+	border:0px;
+}
+
+#informationPrincipale button{
+	margin:0 5%;
+	
+}
+
+#label1, #label2{
+	padding: 0% 1%;
+	padding-bottom:0;
+	width:15%;
+}
+
+#label2{
+	width:22%;
+}
+
+aside{
+	margin: 2% 15%;
+	text-align: center;
+}
+
+aside button{
+	margin:0 10%;
+}

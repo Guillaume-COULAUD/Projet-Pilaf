@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <title>Enregistrer horaires</title>
+  </head>
+  <body class="trois">
+    <div class="container"> 
+    <header>
+      <h1>Société PILAF <span>Enregistrement Horaires</span></h1>  
+    </header>
+
+      <div class="useCase">
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="consulterHorraires.html">Consulter horaires</a></li>
+          </ul>
+        </nav>
+
+        <div class="enregistrerHoraire casUtilisation">
+          <h2>ENREGISTRER HORAIRES</h2>
+          <br>
+
+          <div class="toutH">
+            <div class="choix_date">
+              <div class="choix2">
+                <h3>Choisir Employé</h3>
+                <select>
+                 <option value="entree">Jean Dupont</option>
+                 <option value="entree">Franck Moulin</option>
+               </select>
+              </div>
+              <br>
+              <br>
+
+              <div class="date">
+                <table>
+                   <tbody>
+                     <tr>
+                       <td><h3>Date</h3></td>
+                       <td><input type="date"></td>
+                     </tr>
+                   </tbody>
+                 </table>
+              </div>
+            </div>
+            <br>
+
+            <div class="heure">
+              <div class="temps">
+               <h3>Début</h3>
+                <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+              </div>
+
+              <div class="temps">
+               <h3>Fin</h3>
+                <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+              </div>
+            </div>
+
+            <br>
+            <div class="Confirmation">
+              <a href="consulterHorraires.html" class="Valider">Valider</a>
+              <a href="enregistrerHoraire.html" class="Annuler">Annuler</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

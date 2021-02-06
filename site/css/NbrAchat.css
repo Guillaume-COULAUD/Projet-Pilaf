@@ -1,0 +1,44 @@
+
+
+h2{
+	padding-left:-5%;
+	margin:20px 0 20px 20px;
+}
+
+#libelle, #NombreHoraire{
+	font-weight: bold;
+}
+.ligne1{
+	border-right:solid 1px black;
+}
+
+.ligne2, .Désignation, .Fournisseur, .PrixUnitaire, .Quantité, .Montant{
+	border:solid 1px black;
+	background-color: rgb(136, 255, 89);
+}
+
+.Fournisseur, .Désignation, .PrixUnitaire, .Quantité, .Montant{
+	background-color: white;
+}
+
+table{
+	margin :auto ;
+	margin-top:0px;
+	background-color :white ;
+	width :70%;
+	border:solid 2px black;
+}
+
+table th, table td{
+	background-color: white;
+	text-align: left;
+	border:0px;
+}
+
+#chiffreAffaire{
+	border-bottom:solid 1px black;
+}
+
+#vide{
+	padding:20%;
+}

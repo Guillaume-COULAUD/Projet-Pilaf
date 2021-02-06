@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+  
+
+    <title></title>
+  </head>
+  <body class="quatre">
+  	 <div class="container">
+    <header>
+    <h1>Société PILAF <span>Bienvenue PILAF</span></h1>
+    </header>
+
+    
+      </nav><div class="useCase">
+        <nav>
+          <ul>
+          	<li><a href="index.html">Accueil</a></li>
+            <li><a href="EnregistrerProduit.html">Enregistrer un produit </a></li>
+            <li><a href="ModifierProduit.html">Modifier un produit </a></li>
+            <li><a href="SupprimerProduit.html">Supprimer produits </a></li>
+          </ul>
+        </nav>
+        
+        <section>
+        <h2>CONSULTER PRODUITS</h2>
+		
+		<article>
+			
+			<table>
+				<tr  class="ligne1">
+					<th  class="ligne1">
+						<label id="informationGenerale" for="informationGenerale">Informations générales :</label>
+					</th>
+					<td colspan="5"  class="ligne1">
+						<input id="informationGene" type="text"  placeholder="Ex :Pomme de terre 3 3 TD61651SDF M.Bio" name="informationGene">
+					</td>
+					<td  class="ligne1">
+						<button id="valider">Chercher</button>
+					</td>
+				</tr>
+				<tr class="ligne2">
+					<th>
+						<label for="Designation">Recherche : </label>
+					</th>
+					<td>
+						<label for="Prix">Prix :</label>
+					</td>
+					<td>
+						<label for="Reference">Référence :</label>
+					</td>
+					<td>
+						<label for="Fournisseur">Fournisseur :</label>
+					</td>
+					<td colspan="2">
+						<label for="DetailProduit">Détail produit :</label>
+					</td>
+					<td></td>
+				</tr>
+				<tr class="ligne3">
+					<th>
+						<input id="Designation" type="text"  placeholder="Ex :Pomme de terre" name="Designation" class="Input">
+					</th>
+					<td>
+						<input id="prix" type="text"  placeholder="€" name="prix" class="Input">
+					</td>
+					<td>
+						<input id="Reference" type="text"  placeholder="Ex :TD61651SDF" name="Reference" class="Input">
+					</td>
+					<td>
+						<input id="Fournisseur" type="text"  placeholder="Ex :M.Bio" name="Fournisseur" class="Input">
+					</td>
+					<td colspan="2">
+						<input id="DetailProduit" type="text"  placeholder="Ex :bienvenu par le public" name="DetailProduit" class="Input">
+					</td>
+					<td>
+						<button id="annuler" onClick="return confirm('Vous être sur(e) d’annuler cette fois de rechercher ?');">Annuler</button>
+					</td>
+				</tr>
+				<tr class="ligne4">
+					<th>
+						<label for="Liste">Liste des produits :</label>
+					</th>
+					<td>					</td>
+					<td>
+						<label for="Prix">produit(s) trouvé(s).</label>
+					</td>
+					<td></td>
+					
+					<td colspan="3" id="buttonAjouter">
+						<input name="Plus d'information" type="button" class="button" title="Ajouter un nouveau produit" value="Ajouter un nouveau produit"  onclick="location.href='EnregistrerProduit.html'" />
+					</td>
+				</tr>
+				<tr>
+					<th class="ligne5">
+						<label for="Designation">Désignation :</label>
+					</th>
+					<td class="ligne5">
+						<label for="Prix">Prix :</label>
+					</td>
+					<td class="ligne5">
+						<label for="Reference">Référence :</label>
+					</td>
+					<td class="ligne5">
+						<label for="Fournisseur">Fournisseur :</label>
+					</td>
+					<td class="ligne5">
+						<label for="DetailProduit">Détail produit :</label>
+					</td>
+					<td colspan="2" class="ligne5">
+						<label for="Photo">Photo du produit :</label>
+					</td>				
+				</tr>
+				
+				<tr>
+				<td class="ligne6"> </td>
+				<td class="ligne6"> </td>
+				<td class="ligne6"> </td>
+				<td class="ligne6"> </td>
+				<td class="ligne6"> </td>
+				<td  colspan="2" class="ligne6"> </td>
+				
+				</tr>
+			
+			</table>
+		</article>
+			
+		
+		
+
+      
+        </section>
+
+      </div>
+      
+
+    </div>
+
+  </body>
+</html>
